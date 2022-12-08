@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>JavaScript Jour 7 || Formulaire</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <form action="" class="form">
+          <div class="form-pseudo">
+            <label for="pseudo">Pseudo : </label>
+            <input
+              type="text"
+              name="pseudo"
+              id="pseudo"
+              placeholder="Enter your pseudo name"
+            />
+            <div class="border"></div>
+            <small></small>
+          </div>
+          <div class="form-email">
+            <label for="email">Email : </label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Enter your email address"
+            />
+            <div class="border"></div>
+            <small></small>
+          </div>
+          <div class="form-password">
+            <label for="password">Password : </label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter your password"
+              autocomplete="off"
+            />
+            <div class="border"></div>
+            <small></small>
+          </div>
+          <section class="progress">
+            <span class="progress-bar"></span>
+            <span class="progress-bar"></span>
+            <span class="progress-bar"></span>
+          </section>
+          <div class="form-password-check">
+            <label for="password-check">Confirm Password : </label>
+            <input
+              type="password"
+              name="password-check"
+              id="password-check"
+              placeholder="Confirm your password"
+              autocomplete="off"
+            />
+            <div class="border"></div>
+            <small></small>
+          </div>
+          <button class="submit">Submit</button>
+        </form>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
